@@ -1,0 +1,51 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+#text {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente para mayor legibilidad */
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 10px;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 1000px;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo semi-transparente para mantener la coherencia */
+    margin: 30px auto 0px;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#controls,
+#stats {
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid #0a0a23;
+    padding: 10px;
+    color: #ffffff; /* Color del texto en blanco para mayor contraste */
+    margin-top: 10px;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: rgba(199, 13, 13, 0.8); /* Fondo semi-transparente para mayor cohesión */
+}
+
+button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+}
